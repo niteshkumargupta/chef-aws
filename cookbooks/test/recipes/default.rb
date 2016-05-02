@@ -13,3 +13,6 @@ end
 file "/tmp/nitesh.txt" do
      action :delete
 end
+
+include_recipe 'build-essential'
+include_recipe 'apache2'
